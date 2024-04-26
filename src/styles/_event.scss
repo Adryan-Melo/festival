@@ -1,0 +1,73 @@
+
+//linear-gradient
+.event--mod1{
+    background-image: linear-gradient(180deg, #677e8fbe 0%, #0792ee 100%);
+}
+
+.event--mod2{
+    background-image: linear-gradient(180deg, #0792ee 0%, #2b0969 100%);
+}
+
+.event--mod3{
+    background-image: linear-gradient(180deg, #2b0969 0%, #062657 100%);
+}
+
+.event--mod4{
+    background-image: linear-gradient(180deg, #062657 0%, #89223B 100%);
+}
+//fim do gradiant
+
+//inverção de img
+
+.invet{
+    flex-direction: row-reverse;
+}
+
+
+.event__detalhe{
+    display: flex;
+    gap: 40px;
+
+    @media (max-width: 640px) {
+            display: block; 
+    }
+}
+
+.event__detalhe2{
+    display: block;
+
+}
+
+img {
+    max-width: 360px;
+    margin-top: 101px;
+    margin-bottom: 80px;
+    
+    
+    @media (max-width: 640px) {
+        width: 100%; 
+        margin-top: 40px;
+
+}
+
+}
+
+.event__detalhe__desc {
+    
+    margin-top: 16px; 
+    line-height: 22px;
+    
+}
+
+.event__detalhe__title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 80px;
+    
+    @media (max-width: 640px) {
+        margin-top: 0; 
+        padding-top: 50px;
+}
+}
+
+    

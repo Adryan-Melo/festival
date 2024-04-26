@@ -1,0 +1,2 @@
+AOS.init();const e=new Date("mar 05,2025 19:00:00").getTime(),o=setInterval(function(){let t=e-new Date().getTime(),n=Math.floor(t/864e5),l=Math.floor(t%864e5/36e5),r=Math.floor(t%36e5/6e4),a=Math.floor(t%6e4/1e3);console.log(n),console.log(l),console.log(r),console.log(a),document.getElementById("timer").innerHTML=`${n}D ${l}H ${r}M ${a}S`,t<0&&(clearInterval(o),document.getElementById("timer").innerHTML="Conteudo expirado!")},1e3);
+//# sourceMappingURL=index.69842c6e.js.map
